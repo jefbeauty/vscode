@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+
+body {background-color:black;
+      font:normal 24px verdana;
+
+}
+figcaption  {color:#fff;
+             font:bold 12 px Arial; 
+
+
+}
+
+h1 {color: white;
+      font:bold  24px verdana;
+      text-align:left;
+
+}
+
+p {color: white;
+      font:normal 12px  verdana;
+      text-align: justify;
+    text-indent: 50px;
+}
+
+hgroup {color: #fff;
+      font:bold 24px  Arial;
+       text-align:center;
+       text-indent: 50px;
+
+
+}
+
+figure.foto-legenda {
+
+      border: 3px   solid yellow;
+      box-shadow: 1px 1px 4px greenyellow;  
+
+
+}
+
+figure.foto-legenda img {
+
+width: 100%;
+height: 100%;
+
+
+}
+
+
+p {color: #fff;
+      font:bold 24px Arial;
+      text-align: justify;
+
+
+}
+
+
+
+
+
+
+
+
