@@ -1,84 +1,116 @@
 @charset "UTF-8";
 
 
-body {background-color:black;
+body {background-color:dimgray;
       font:normal 24px verdana;
 
-}
-figcaption  {color:#fff;
-             font:bold 12 px Arial; 
-             box-shadow: 3px 3px  6px  gray;
-
 
 }
 
-h1 {color: white;
-      font:bold  24px verdana;
-      text-align:center;
+  /*formatação de texto*/
 
+
+figcaption  {color:#ffff;
+             font:normal 18px Arial; 
+             text-align:left;
+             text-shadow: 5px black;
+             
 }
 
-h3 {color: white;
-      font:bold  24px verdana;
-      text-align:left;
-}
- p {color: white;
-      font:normal 12px  verdana;
-      text-align: justify;
-    text-indent: 50px;
-}
-
-hgroup {color: #fff;
-      font:bold 24px  Arial;
-       text-align:center;
-       text-indent: 50px;
+figure.foto-legenda figcaption {
+text-align:left;
+position: absolute;
+top: 100%;
+text-shadow: 3px 3px 6px black;
 
 
 }
-
 
 
       
+/*  Formatação de imagens com Legendas */ 
+      
+figure.foto-legenda {
+      background-color: rgb(0,0,0);
+      border: 8px   solid white;
+      box-shadow: 2px 2px 5px black; 
+      position: absolute;
+      top: 0%;
+      
+      }
 
 figure.foto-legenda {
 
-      border: 8px   solid gray;
-      box-shadow: 3px 1px 4px gray;  
-
+width: 200px;
+height: 200px;
 
 }
+      
+
 
 figure.foto-legenda img {
 
-width: 180px;
-height: 180px;
-
-
+width: 200px;
+height: 200px;
+position:absolute;
+top: 0%;
 }
- 
-
-/* img {border: 5px  solid  white;
-      object-fit: cover;
-     object-position: 80% 100%;
 
 
 
-}
-*/
 
 
-
-p {color: #fff;
-      font:bold 24px Arial;
+ p {color:black;
+      font:bolder 14px  verdana;
       text-align: justify;
-
+    text-indent: 40px;
+    position: absolute;
+    top: 85%;
+  
 
 }
 
+hgroup {color: black;
+      font:normal 24px  Arial;
+       text-align:center;
+       text-indent: 50%;
+       text-shadow: 1px 1px 4px white;
+       margin: 0%;
+}
 
 
+     
+
+/* Formatação Video */ 
+
+embed {
+      border: 8px  solid  white;
+      box-shadow: 6px 6px 12px gray;
+      position:absolute;
+      top: 70%;
+      padding: top 10px;
+     
+
+}
+
+nav {color: #850505;
+      font:normal  20px   Verdana; 
+      text-align: justify;
+      position:absolute;
+      top: 40%;
+
+}
+
+a {color: white;
+      padding: 30%;
+      text-align: justify;
+      position: absolute;
+      padding: 40%;
+top: 0,6%;
+}
 
 
+ol { text-align: justify;
 
 
-
+}
